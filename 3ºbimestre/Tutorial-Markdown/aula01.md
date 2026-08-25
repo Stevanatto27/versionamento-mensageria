@@ -1,172 +1,191 @@
-# **Introdução**
+# Introdução
+## O **Markdown** é uma linguagem de marcação simples para formatar textos e maneira rápida e legível. No GitHub e amplamente usado para;
 
-O Markdown é uma linguagem de marcação simples para formatar textos de maneira rápida e legivél no github e amplamente usado para;
-- arquivos "README.md"
-- documentação de projeto
-- anotações tecnicas 
-- relátorios de atividades 
-- instruções de instalações 
-- registros de aulas 
-- ISSUES e Pull Requets 
-  
-A extensão padrão do arquivo Markdown é ".md"
-exemplo:
+- Arquivos "README.md"
+- Documentação de projetos
+- Anotações técnicas 
+- Relatórios de atividades  
+- Instruções de instalações 
+- Registros de aulas
+- ISSUES e Pull Requets
+#### **A extenção do arquivo Markdown é ".md"**
 
-   README.md 
+---
+# 1. O que é Markdown?
+### Markdown permite aplicar formatação simples em um texto usando caracteres simples;
 
-1. O que é Markdown? 
-   
-   Markdown permite aplicar formatação simples em um texto usando caracteres simples;
+Exemplo: 
+# Meu projeto
 
-exemplo:
-   # Meu Projeto
-Este projeto foi desenvolvido durante a aula de **Versionamento de código** 
-   ## Tecnologia
-- Git
-- GitHub
-- VSCode 
-  
-No GitHub, esse contéudo será apresentado de forma formatada com título, texto em negrito e lista.
-1. Criando um arquivo Markdown.
-   No visual Code Studio: 
-2. Abra a pasta do Projeto
-3. Clique em "New File" 
-4. Informe o nome do arquivo
-    
-ex: README.md
+#### Este projeto foi desenvolvido durante a aula de **Versionamento de código**
 
-Para registros de aulas, também podem ser utilizados nomes como; 
+## Tecnologias 
+    - Git
+    - GitHub
+    - VsCode
 
-semana-01.md
+### No GitHub, esse conteúdo será apresentado de forma formatada com título, texto em negrito e lista.
 
-semana-02.md
 
-aula_01.md
+# 2. Criando um arquivo Markdown-
+No Visual Code Studio:
+1. Abra a pasta do projeto
+2. Clique em "new file"
+3. Informe o nome do arquivo 
 
-Boas Práticas
-- prefira nomes:
-     - Curtos
-     - Descritivos 
-     - Escrito em letras minúsculas
-     - Sem acentos 
-     - Separados por hífem quando necessário
-     - Recomendado
-   
-  resumo-git.md
-  aula01.md
-  comandos-git.md
+Ex: README.md
 
-Evite 
+Para projetos de aulas também podem ser utilizados nomes como;
 
-Resumo Git.md
+    - semana-01.md
 
-Aula01.md
+    - semana-02.md
 
-Atividade Prática GitHub.md
+    - aula-01.md
 
-Meu Arquivo Novo.md
-1. Título e subtítulos
+# Boas práticas 
+## Prefira nomes:
+- curtos
+- descritivos 
+- escrito em letras minúsculas 
+- sem acentos
+- sem espaços
+- separados por hífen quando necessário
 
-Markdown utiliza o caractere # para criar títulos
-# Título Pricinpal
+## Recomedado:
+
+    - resumo-git.md
+
+    - aula-01.md
+
+    - comandos-git.md
+
+---
+
+## Evite 
+- Resumo Git.md
+- Aula 01.md
+- Atividade Prática GitHub.md
+- Meu Arquivo Novo.md
+
+# 3.Título e subtítulos
+### Markdown utiliza o caractere # para criar título 
+```markdown
+# Título principal
 ## Título nível 2
 ### Título nível 3
-#### Título nível 4 
+#### Título nível 4
 ##### Título nível 5
-###### Título nível 6
-Boa Prática
+```
+# Título principal
+## Título nível 2
+### Título nível 3
+#### Título nível 4
+##### Título nível 5
 
-Utilize uma estrutura hieráquica
+# Boa Prática 
 
-exemplo:
+### Utilize uma estrutura hierarquica 
+### Exemplo:
+```markdown
 # Semana 08 - Introdução ao Git
-## Objetivo da Aula 
-## Conceitos Aprendidos
-## Repositório 
-## Commit 
-## Branch
-## Atividade Prática 
-## Conclusão 
-Evite pular níveis sem necessidade como; 
-# Título
-## Subtítulo 
-4. parágrafos
-   
-Para criar um parágrafo deixe uma linha em branco entre os textos.
-    Git é um sistema de controle distribuído
+## Objetivos da aula
+## Conceitos aprendidos
+### Repositório
+### Commit
+### Branch
+### Atividade Prática
+## Conclusão
+```
+# Semana 08 - Introdução ao Git
+```markdown
+## Objetivos da aula
+## Conceitos aprendidos
+### Repositório
+### Commit
+### Branch
+### Atividade Prática
+## Conclusão
+```
+## Objetivos da aula
+## Conceitos aprendidos
+### Repositório
+### Commit
+### Branch
+### Atividade Prática
+## Conclusão
 
-    Ele permite registrar e acompanhar alterações realizadas nos arquivos de um projeto
+# Evite pular níveis sem necessidade como;
+```markdown
+    # Título
 
-5. Negrito
+    ### Subtítulo
+```
+# 4. Parágrafos
+```markdown
+### Para criar um parágrafo, deixe uma linha em branco entre os textos.
+```
 
-Utilize 2 astreiscos;
+Git é um sistema de controle distribuído.
+Ele permite registrar e acompanhar alterações realizadas nos arquivos de um projeto.
+ # 5. Negrito
+Utlize 2 asteriscos: **texto em negrito**
 
- **Texto em negrito**
+ O git **Git** é um sistema de controle de versão.
 
- O **Git** é um sistema de controle de versão 
- 
- 6. Itálico
-   
- Utiliz 1 asterisco
-    
-    *Texto em itálico*
+# 6. Italico
+### Utilize 1 asterisco: *Texto em italico*
+### O comando é *git status* permite verificar o estado do repositório. Entretanto para representar comandos, o ideal é utilizar a formatação do código a seguir.
 
-O comando *Gitstatus* permite verificar o estado do repostório.
+# 7. Negrito e Italico 
 
-Etretanto para representar comandos, o ideal é utilizar a formarfação de código a seguir.
+```markdown
 
-7. Negrito e itálico
+### ***Texto em negrito e em italico***
+### ***Git add***
 
-***Texto em negrito e itálico***
+```
+### ***Texto em negrito e em italico***
+### ***Git add***
 
-***Git add***
-
-8. Listas nãoo Ordenadas Utilize antes de cada item.
-   
-- Git
+# 8. Listas não ordenadas 
+### Utilize antes de cada item:
+- Git 
 - GitHub
-- Visual Code Studio
+- Visual Studio Code
 
-Também é possivel cria níveis
-
+Também é possível criar níveis
 - Git
-    - commit
+    - Commit
     - branch
     - merge
 - GitHub
-    - repositótio
-    - pull request
-    - Issuves
-  
-Boa pática
+    - Repositório
+    - Pull Request
+    - Issues
 
+### Boa prática 
 Utilize listas para representar
-
 - conceitos
 - requisitos
-- recnologias
+- tecnologias
 - etapas
 - recursos
 
-9. Listass Numeradas
-    
-1  criar o repositório
-
-2  adiconar os arquivos
-
-3  Criar os arquivos 
-
-4  Enviar para o GitHub 
+# 9. Listas Numeradas
+1. Criar o repositório
+2. Adicionar os arquivos
+3. Criar o commit
+4. Envia para o GitHub
 
 Ideal para procedimentos que precisam ser executados em ordem.
 
-10. Lista de Tarefas - CheckLists
-
+# 10. Listas de Tarefas - Checklists
 O GitHub permite criar caixas de seleção 
-- [x] Criar o repositório
-- [x] Criar o README
-- [x] Realizar a atividade 
-- [x] Criar o commit
-- [x] Enviar para o GitHub
+- [ ] Criar o repositório
+- [ ] Criar o README.md
+- [ ] Realiza a atividade 
+- [ ] Criar o commit 
+- [ ] Enviar para o GitHub
 
-Esse percuso é especialmente útil para acompanhar atividades e projetos
+Esse recurso é especialmente útil para acompanhar atividades e projetos.
